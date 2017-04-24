@@ -1,0 +1,19 @@
+There isn't really a specific layout to aim for, but I found this to be a decent one:
+
+<LayoutPepsiman>
+		<Joystick		Type="0"	Location="47.366585,0.598748,110.613747"	   Rotation="-29,0,0"/>
+		<Button_A					Location="40.736897,-17.945101,114.284218"	Scale="1.25"	   Rotation="-29,0,0"/>
+		<Button_B					Location="40.736389,17.882244,114.284645"	Scale="1.25"	   Rotation="-29,0,0"/>
+		<Button_X				Location="46.000099,28.927509,111.000000"	   Rotation="-29,0,0"/>
+		<Button_Y				Location="45.999966,-28.204998,111.000000"	   Rotation="-29,0,0"/>
+		<Button_Start  Location="36.539,-23.034,116.491"     Rotation="-29,0,0"  Scale="1.0"/>
+		<Button_Select  Location="36.539,-31.997,116.491"    Rotation="-29,0,0"  Scale="1.0"/>
+</LayoutPepsiman>
+
+
+And below is the cabinet configuration:
+
+		<ButtonLayout>LayoutPepsiman</ButtonLayout>
+		<ButtonColour AB="#FF0000" XY="#0000FF" SS="#FFFFFF" />
+		<ArtFrontPanel Texture="pepsiman-banner.png" />
+		<ArtSidePanel Texture="pepsiman-cabinet.png"  />

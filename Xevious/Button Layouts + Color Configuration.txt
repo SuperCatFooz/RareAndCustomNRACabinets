@@ -1,0 +1,19 @@
+There isn't really a specific layout to aim for, but I found this to be a decent one:
+
+<LayoutXevious>
+	<Joystick  Type="0"  Location="40.0,-0.100,114.69"  Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_A  Location="36.097,18.239,116.728"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_B  Location="40.097,12.299,114.69"    Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_X  Location="40.097,-12.299,114.69"      Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Y  Location="36.097,-18.239,116.728"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Start  Location="36.009,26.785,116.776"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Select  Location="36.009,23.555,116.776"    Rotation="-29,0,0"  Scale="1.0"/>
+</LayoutXevious>
+
+
+And below is the cabinet configuration:
+
+		<ButtonLayout>LayoutXevious</ButtonLayout>
+		<ButtonColour AB="#FFFFFF" XY="#FFFFFF" SS="#000000" />
+		<ArtFrontPanel Texture="xevious-banner.png" />
+		<ArtSidePanel Texture="xevious-cabinet.png" />

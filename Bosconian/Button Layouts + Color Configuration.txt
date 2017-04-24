@@ -1,0 +1,17 @@
+Below is the Layout configuration.  Put this into ArcadeButtonLayouts.xml:
+
+<LayoutBosconian>
+	<Joystick  Type="0"  Location="41.929,0.313,113.599"  Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_A  Location="41.929,19.803,113.599"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_B  Location="41.929,-19.177,113.599"    Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Start  Location="36.539,-23.034,116.491"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Select  Location="36.539,-31.997,116.491"    Rotation="-29,0,0"  Scale="1.0"/>
+</LayoutBosconian>
+
+
+And below is the cabinet configuration:
+
+		<ButtonLayout>LayoutBosconian</ButtonLayout>
+		<ButtonColour AB="#00FF00" XY="#008000" SS="#FFFFFF" />
+		<ArtFrontPanel Texture="bosconia-banner.png" />
+		<ArtSidePanel Texture="bosconian-cabinet.png" />

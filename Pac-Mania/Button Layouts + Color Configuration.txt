@@ -1,0 +1,17 @@
+There isn't really a specific layout to aim for, but I found this to be a decent one:
+
+<LayoutPacMania>
+	<Joystick  Type="0"  Location="44.403,-0.208,112.272"  Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_A  Location="41.617,14.8,113.836"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_B  Location="41.617,-15.321,113.836"    Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Start  Location="32.750,31.163,118.483"     Rotation="-29,0,0"  Scale="0.6"/>
+	<Button_Select  Location="32.750,26.89,118.483"    Rotation="-29,0,0"  Scale="0.6"/>
+</LayoutPacMania>
+
+
+And below is the cabinet configuration:
+
+		<ButtonLayout>LayoutPacMania</ButtonLayout>
+		<ButtonColour AB="#FF0000" XY="#FF0000" SS="#FF0000" />
+		<ArtFrontPanel Texture="pacmania-banner.png" />
+		<ArtSidePanel Texture="pacmania-cabinet.png" />

@@ -1,0 +1,16 @@
+Below is the Layout configuration.  Put this into ArcadeButtonLayouts.xml:
+
+<LayoutMotos>
+	<Joystick  Type="0"  Location="43.519,-0.313,112.746"  Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_A  Location="43.519,13.758,112.746"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Start  Location="42.459,-20.115,113.315"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Select  Location="42.459,-27.307,113.315"    Rotation="-29,0,0"  Scale="1.0"/>
+</LayoutMotos>
+
+
+And below is the cabinet configuration:
+
+		<ButtonLayout>LayoutMotos</ButtonLayout>
+		<ButtonColour AB="#FF0000" XY="#FF0000" SS="#FF0000" />
+		<ArtFrontPanel Texture="motos-banner.png"  />
+		<ArtSidePanel Texture="motos-cabinet.png"  />

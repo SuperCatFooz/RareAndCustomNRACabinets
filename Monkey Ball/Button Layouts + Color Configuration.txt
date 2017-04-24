@@ -1,0 +1,15 @@
+Below is the Layout configuration.  Put this into ArcadeButtonLayouts.xml:
+
+<LayoutMonkeyBall>
+	<Joystick  Type="0"  Location="39.631,-16.068,114.832"  Rotation="-29,0,0"  Scale="2.0"/>
+	<Button_Start  Location="39.631,18.135,114.832"     Rotation="-29,0,0"  Scale="1.8"/>
+	<Button_Select  Location="39.631,18.135,110.832"     Rotation="-29,0,0"  Scale="0.0"/>
+</LayoutMonkeyBall>
+
+
+And below is the cabinet configuration:
+
+		<ButtonLayout>LayoutMonkeyBall</ButtonLayout>
+		<ButtonColour AB="#FFC400" XY="#FFC400" SS="#FFC400" />
+		<ArtFrontPanel Texture="monkeyball-banner.png" />
+		<ArtSidePanel Texture="monkeyball-cabinet.png" />
