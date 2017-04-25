@@ -1,0 +1,17 @@
+There isn't really a specific layout to aim for, but I found this to be a decent one:
+
+<LayoutMappy>
+	<Joystick  Type="0"  Location="42.813,-0.208,113.125"  Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_A  Location="42.282,18.656,113.409"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_B  Location="42.282,-19.177,113.409"    Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Start  Location="37.422,-23.242,116.017"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Select  Location="37.422,-29.079,116.017"    Rotation="-29,0,0"  Scale="1.0"/>
+</LayoutMappy>
+
+
+And below is the cabinet configuration:
+
+		<ButtonLayout>LayoutMappy</ButtonLayout>
+		<ButtonColour AB="#ffff00" XY="#ffff00" SS="#ffffff" />
+		<ArtFrontPanel Texture="mappy-banner.png" />
+		<ArtSidePanel Texture="mappy-cabinet.png" />
