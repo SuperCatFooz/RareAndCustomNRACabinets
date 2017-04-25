@@ -1,0 +1,19 @@
+Below is the Layout configuration.  Put this into ArcadeButtonLayouts.xml:
+
+<LayoutDaytona>
+	<Joystick  Type="1"  Location="52.134,0.104,99.026"  Rotation="0,180,0"  Scale="1.0"/>
+	<Button_A  Location="46.435,34.186,111.181"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_B  Location="46.435,29.808,111.181"    Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_X  Location="46.435,24.701,111.181"      Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Y  Location="46.435,19.699,111.181"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Start  Location="38.483,-32.727,115.448"     Rotation="-29,0,0"  Scale="1.0"/>
+	<Button_Select  Location="39.808,-26.89,114.737"    Rotation="-29,0,0"  Scale="1.0"/>
+</LayoutDaytona>
+
+
+And below is the cabinet configuration:
+
+		<ButtonLayout>LayoutDaytona</ButtonLayout>
+		<ButtonColour AB="#FF0000" XY="#00FF00" SS="#FFFFFF" />
+		<ArtFrontPanel Texture="daytona-banner.png" />
+		<ArtSidePanel Texture="daytona-cabinet.png" />
